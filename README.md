@@ -2,7 +2,7 @@
 
 # react-bootstrap-maskedinput
 
-react-maskedinput form element that works with react-bootstrap
+[react-maskedinput](https://github.com/insin/react-maskedinput) form element that works with [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 
 ## Usage
 
