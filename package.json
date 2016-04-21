@@ -1,0 +1,35 @@
+{
+  "name": "react-bootstrap-maskedinput",
+  "version": "0.1.0",
+  "description": "react-maskedinput form element that works with react-bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cjsx -cb index.cjsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneidmaster/react-bootstrap-maskedinput.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "masked",
+    "input"
+  ],
+  "author": "Zach Schneider <zach@schneid.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schneidmaster/react-bootstrap-maskedinput/issues"
+  },
+  "homepage": "https://github.com/schneidmaster/react-bootstrap-maskedinput#readme",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.28.5",
+    "react-maskedinput": "^3.0.0"
+  },
+  "devDependencies": {
+    "coffee-react": "^5.0.0"
+  }
+}
