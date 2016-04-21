@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-bootstrap-maskedinput.svg)](https://badge.fury.io/js/react-bootstrap-maskedinput)
+
 # react-bootstrap-maskedinput
 
 react-maskedinput form element that works with react-bootstrap
