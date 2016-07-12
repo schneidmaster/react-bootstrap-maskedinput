@@ -22,7 +22,7 @@ export class MyForm extends React.Component {
     return (
       <FormGroup>
         <ControlLabel>Phone Number</ControlLabel>
-        <MaskedFormControl type='text' name='phoneNumber' placeholder='09:00' mask='11:11' />
+        <MaskedFormControl type='text' name='phoneNumber' mask='111-111-1111' />
       </FormGroup>
     );
   }
