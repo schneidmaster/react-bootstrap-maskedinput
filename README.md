@@ -2,7 +2,9 @@
 
 # react-bootstrap-maskedinput
 
-[react-maskedinput](https://github.com/insin/react-maskedinput) form element that works with [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+[react-maskedinput](https://github.com/insin/react-maskedinput) form element that works with [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap).
+
+For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0). For current versions of `react-bootstrap`, use 0.2.0.
 
 ## Usage
 
@@ -18,7 +20,10 @@ import MaskedInput from 'react-bootstrap-maskedinput'
 export class MyForm extends React.Component {
   render () {
     return (
-      <MaskedInput type='text' label='Phone Number' name='phoneNumber' mask='111-111-1111' />
+      <FormGroup>
+        <ControlLabel>Phone Number</ControlLabel>
+        <MaskedFormControl type='text' name='phoneNumber' placeholder='09:00' mask='11:11' />
+      </FormGroup>
     );
   }
 }

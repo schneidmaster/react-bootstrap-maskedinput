@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-maskedinput",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "react-maskedinput form element that works with react-bootstrap",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,10 @@
   "homepage": "https://github.com/schneidmaster/react-bootstrap-maskedinput#readme",
   "dependencies": {
     "classnames": "^2.2.3",
-    "react": "^0.14.6",
-    "react-bootstrap": "^0.28.5",
-    "react-maskedinput": "^3.0.0"
+    "react": "^15.0.0",
+    "react-bootstrap": ">= 0.29.0",
+    "react-maskedinput": "^3.0.0",
+    "react-prop-types": "^0.3.0"
   },
   "devDependencies": {
     "coffee-react": "^5.0.0"
