@@ -9,13 +9,13 @@ For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/re
 ## Usage
 
 1. Install the package: `npm install react-bootstrap-maskedinput --save`
-2. Import the component: `import MaskedInput from 'react-bootstrap-maskedinput'`
-3. Use in your JSX -- the component accepts all the usuals from react-bootstrap's `Input` component plus react-maskedinput's `MaskedInput` component.
+2. Import the component: `import MaskedFormControl from 'react-bootstrap-maskedinput'`
+3. Use in your JSX -- the component accepts all the usuals from react-bootstrap's `FormControl` component plus react-maskedinput's `MaskedInput` component.
 
 Simple example:
 
 ```javascript
-import MaskedInput from 'react-bootstrap-maskedinput'
+import MaskedFormControl from 'react-bootstrap-maskedinput'
 
 export class MyForm extends React.Component {
   render () {
