@@ -33,7 +33,7 @@ class MaskedFormControl extends FormControl
     classes = getClassSet(@props) unless type is 'file'
 
     <MaskedInputField
-      {...@props}
+      {...props}
       type={type}
       id={id}
       className={classNames(className, classes)}
