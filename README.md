@@ -4,7 +4,7 @@
 
 [react-maskedinput](https://github.com/insin/react-maskedinput) form element that works with [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap).
 
-For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0). For current versions of `react-bootstrap`, use 0.2.0.
+For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0). For current versions of `react-bootstrap`, use 0.2.x.
 
 ## Usage
 
