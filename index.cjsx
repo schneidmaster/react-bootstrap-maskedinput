@@ -28,12 +28,14 @@ class MaskedFormControl extends FormControl
     {type, id, className} = @props
     id ||= controlId
     props = {}
-    props[k] = v for k, v in @props when k not in ['componentClass', 'type', 'id', 'className', 'bsClass']
+    for k, v of @props
+      if k not in ['componentClass', 'type', 'id', 'className', 'bsClass']
+        props[k] = v
 
     classes = getClassSet(@props) unless type is 'file'
 
     <MaskedInputField
-      {...@props}
+      {...props}
       type={type}
       id={id}
       className={classNames(className, classes)}
