@@ -24,6 +24,13 @@
     "url": "https://github.com/schneidmaster/react-bootstrap-maskedinput/issues"
   },
   "homepage": "https://github.com/schneidmaster/react-bootstrap-maskedinput#readme",
+  "files": [
+    "lib/",
+    "src/",
+    "LICENSE.txt",
+    "package.json",
+    "README.md"
+  ],
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
