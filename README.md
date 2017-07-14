@@ -12,7 +12,7 @@
 
 ## Usage
 
-1. Install the package: `npm install react-bootstrap-maskedinput --save`
+1. Install the package: `npm install react-bootstrap-maskedinput --save` or `yarn add react-bootstrap-maskedinput`
 2. Import the component: `import MaskedFormControl from 'react-bootstrap-maskedinput'`
 3. Use in your JSX -- the component accepts all the usuals from react-bootstrap's `FormControl` component plus react-maskedinput's `MaskedInput` component.
 
@@ -39,15 +39,20 @@ export default class MyForm extends React.Component {
 
 * git
 * npm
+* yarn (optional/recommended)
 
 ### Setup
 
 1. Clone the repository (`git clone git@github.com:schneidmaster/react-bootstrap-maskedinput.git`)
-2. Install dependencies: `npm install`
+2. Install dependencies: `npm install` or `yarn install`
+
+### Testing
+
+Run `npm run example` or `yarn example` and open [http://localhost:8080](http://localhost:8080). Make changes in `src/index.js` or try different setups in `example/index.js`.
 
 ### Deployment
 
-1. Run `npm run build` to build an ES5 version of the class.
+1. Run `npm run build` or `yarn build` to build an ES5 version of the class.
 
 ## Contributing
 
