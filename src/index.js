@@ -1,23 +1,11 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
 import { FormControl } from 'react-bootstrap';
-import MaskedInputField from 'react-maskedinput';
 import { bsClass, getClassSet } from 'react-bootstrap/lib/utils/bootstrapUtils';
 import FormControlFeedback from 'react-bootstrap/lib/FormControlFeedback';
 import FormControlStatic from 'react-bootstrap/lib/FormControlStatic';
-import React from 'react';
-import elementType from 'react-prop-types/lib/elementType';
-import classNames from 'classnames';
-
-let propTypes = {
-  componentClass: elementType,
-  // Only relevant if `componentClass` is `'input'`.
-  type: React.PropTypes.string,
-  // Uses `controlId` from `<FormGroup>` if not explicitly specified.
-  id: React.PropTypes.string
-};
-
-let defaultProps = { componentClass: 'input' };
-
-let contextTypes = { $bs_formGroup: React.PropTypes.object };
+import MaskedInputField from 'react-maskedinput';
 
 class MaskedFormControl extends FormControl {
   render() {
@@ -31,11 +19,8 @@ class MaskedFormControl extends FormControl {
     }
     let props = {};
     for (let k in this.props) {
-      let v = this.props[k];
-      if (
-        !['componentClass', 'type', 'id', 'className', 'bsClass'].includes(k)
-      ) {
-        props[k] = v;
+      if (!['componentClass', 'type', 'id', 'className', 'bsClass'].includes(k)) {
+        props[k] = this.props[k];
       }
     }
 
@@ -57,9 +42,15 @@ class MaskedFormControl extends FormControl {
   }
 }
 
-MaskedFormControl.propTypes = propTypes;
-MaskedFormControl.defaultProps = defaultProps;
-MaskedFormControl.contextTypes = contextTypes;
+MaskedFormControl.propTypes = propTypes = {
+  componentClass: PropTypes.element,
+  // Only relevant if `componentClass` is `'input'`.
+  type: PropTypes.string,
+  // Uses `controlId` from `<FormGroup>` if not explicitly specified.
+  id: PropTypes.string
+};
+MaskedFormControl.defaultProps = { componentClass: 'input' };
+MaskedFormControl.contextTypes = { $bs_formGroup: PropTypes.object };
 
 MaskedFormControl.Feedback = FormControlFeedback;
 MaskedFormControl.Static = FormControlStatic;

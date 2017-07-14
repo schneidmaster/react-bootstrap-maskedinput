@@ -4,7 +4,11 @@
 
 [react-maskedinput](https://github.com/insin/react-maskedinput) form element that works with [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap).
 
-For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0). For current versions of `react-bootstrap`, use 0.2.x.
+## Versioning
+
+* For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0).
+* For current versions of `react-bootstrap`, use >= 0.2.x.
+* For projects on React >= 0.15.5, use 0.3.x to get rid of the proptypes warning. 0.3.x is also the first version to support `react-maskedinput` 4.x.
 
 ## Usage
 
@@ -17,7 +21,7 @@ Simple example:
 ```javascript
 import MaskedFormControl from 'react-bootstrap-maskedinput'
 
-export class MyForm extends React.Component {
+export default class MyForm extends React.Component {
   render () {
     return (
       <FormGroup>
