@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/*.js test/*.js",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "build": "babel src --out-dir lib",
     "example": "webpack-dev-server --config example/webpack.babel.js"
   },
@@ -32,11 +33,15 @@
     "package.json",
     "README.md"
   ],
+  "jest": {
+    "collectCoverage": true
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "coveralls": "^2.13.1",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
     "eslint": "^4.2.0",
