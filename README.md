@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/react-bootstrap-maskedinput.svg)](https://badge.fury.io/js/react-bootstrap-maskedinput)
+[![CircleCI](https://circleci.com/gh/schneidmaster/react-bootstrap-maskedinput.svg?style=shield)](https://circleci.com/gh/schneidmaster/react-bootstrap-maskedinput)
 
 # react-bootstrap-maskedinput
 
