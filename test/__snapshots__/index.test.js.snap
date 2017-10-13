@@ -27,6 +27,7 @@ exports[`Component passes complex props through to FormControl and MaskedInput 1
       mask="111-111-1111"
       placeholder="555-555-5555"
       size={10}
+      type={undefined}
       value=""
     >
       <input
@@ -40,6 +41,7 @@ exports[`Component passes complex props through to FormControl and MaskedInput 1
         onPaste={[Function]}
         placeholder="555-555-5555"
         size={10}
+        type={undefined}
         value=""
       />
     </MaskedInput>
@@ -60,11 +62,14 @@ exports[`Component renders correctly with basic props 1`] = `
   >
     <MaskedInput
       className="form-control"
+      id={undefined}
       mask="111-111-1111"
+      type={undefined}
       value=""
     >
       <input
         className="form-control"
+        id={undefined}
         mask="111-111-1111"
         maxLength={12}
         onChange={[Function]}
@@ -73,6 +78,7 @@ exports[`Component renders correctly with basic props 1`] = `
         onPaste={[Function]}
         placeholder="___-___-____"
         size={12}
+        type={undefined}
         value=""
       />
     </MaskedInput>
