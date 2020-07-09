@@ -9,8 +9,8 @@
 ## Versioning
 
 * For `react-bootstrap` < 0.29.0, use [v0.1.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.1.0).
-* For current versions of `react-bootstrap`, use >= 0.2.x.
-* For projects on React >= 0.15.5, use 0.3.x to get rid of the proptypes warning. 0.3.x is also the first version to support `react-maskedinput` 4.x.
+* For `react-bootstrap` >= 0.29.0 and < 1.0, use [v0.4.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.4.0).
+* For `react-bootstrap` >= 1.0, use [v0.5.0](https://github.com/schneidmaster/react-bootstrap-maskedinput/releases/tag/v0.5.0).
 
 ## Usage
 
