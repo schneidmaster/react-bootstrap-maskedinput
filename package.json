@@ -49,6 +49,7 @@
     "@testing-library/react": "^10.4.5",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
     "coveralls": "^2.13.1",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
@@ -76,7 +77,6 @@
     "react-bootstrap": ">= 1.0.0"
   },
   "dependencies": {
-    "babel-loader": "^8.1.0",
     "react-maskedinput": "^4.0.1"
   }
 }
