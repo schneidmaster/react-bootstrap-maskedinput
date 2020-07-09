@@ -1,6 +1,6 @@
-[![npm version](https://badge.fury.io/js/react-bootstrap-maskedinput.svg)](https://badge.fury.io/js/react-bootstrap-maskedinput)
-[![CircleCI](https://circleci.com/gh/schneidmaster/react-bootstrap-maskedinput.svg?style=shield)](https://circleci.com/gh/schneidmaster/react-bootstrap-maskedinput)
-[![Coverage Status](https://coveralls.io/repos/github/schneidmaster/react-bootstrap-maskedinput/badge.svg?branch=master)](https://coveralls.io/github/schneidmaster/react-bootstrap-maskedinput?branch=master)
+# Deprecated
+
+Please see the [deprecation notice](https://github.com/schneidmaster/react-bootstrap-maskedinput/issues/22).
 
 # react-bootstrap-maskedinput
 
